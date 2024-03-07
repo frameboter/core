@@ -8,11 +8,11 @@
         <version>3.2.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.roboter5123</groupId>
-    <artifactId>security</artifactId>
+    <groupId>com.frameboter</groupId>
+    <artifactId>core</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>security</name>
-    <description>security</description>
+    <name>core</name>
+    <description>core</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -21,13 +21,13 @@
     <build>
         <plugins>
         </plugins>
-        <finalName>security</finalName>
+        <finalName>core</finalName>
     </build>
  <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub frameboter Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/frameboter/security</url>
+            <url>https://maven.pkg.github.com/frameboter/core</url>
         </repository>
     </distributionManagement>
 </project>
