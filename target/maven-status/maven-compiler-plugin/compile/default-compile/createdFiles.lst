@@ -1,0 +1,4 @@
+com\roboter5123\config\CorsConfig.class
+com\roboter5123\config\OpenAPIConfig.class
+com\roboter5123\config\WebSocketConfig.class
+com\roboter5123\config\ModelMapperConfig.class
