@@ -1,13 +1,12 @@
-package com.roboter5123.config;
-
+package com.frameboter.config;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.servers.Server;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-@AutoConfiguration
+@Configuration
 @ConditionalOnMissingBean
 public class OpenAPIConfig {
 
@@ -16,6 +15,7 @@ public class OpenAPIConfig {
 
     @Bean
     public OpenAPI openAPI() {
+
         return new OpenAPI().addServersItem(new Server().url(url));
     }
 }

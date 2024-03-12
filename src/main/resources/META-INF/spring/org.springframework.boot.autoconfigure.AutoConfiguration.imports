@@ -1,0 +1,4 @@
+com.frameboter.config.CorsConfig
+com.frameboter.config.ModelMapperConfig
+com.frameboter.config.OpenAPIConfig
+com.frameboter.config.WebSocketConfig
