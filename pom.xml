@@ -91,12 +91,12 @@
                 <repository>
                     <id>github-deploy</id>
                     <name>GitHub frameboter Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/frameboter/openapi</url>
+                    <url>https://maven.pkg.github.com/frameboter/core</url>
                 </repository>
                 <snapshotRepository>
                     <id>github-deploy</id>
                     <name>GitHub frameboter Apache Maven Snapshots</name>
-                    <url>https://maven.pkg.github.com/frameboter/openapi</url>
+                    <url>https://maven.pkg.github.com/frameboter/core</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
