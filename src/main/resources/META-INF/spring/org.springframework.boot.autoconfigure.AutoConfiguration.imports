@@ -1,3 +1,4 @@
 com.frameboter.config.CorsConfig
 com.frameboter.config.ModelMapperConfig
 com.frameboter.config.WebSocketConfig
+com.frameboter.config.RandomConfig
